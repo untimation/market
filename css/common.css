@@ -1,0 +1,91 @@
+@charset "utf-8";
+body {margin: 0; padding: 0; font-family: "맑은 고딕";}
+ul,li,ol {list-style: none; margin: 0; padding: 0;}
+
+.headertop {width: 1050px; height: 36px;; margin: 0 auto;}
+.bundle {width: 200px; height: 36px; float: right;}
+.join {font-size: 11px; text-decoration: none; color: #5f0080; margin: 10px 0 0 0px; float: left;}
+.bundle > p {width: 3px; height: 5px; float: left; margin: 5px 12px 0 12px; color: #d9d9d9;}
+.login {float: left; text-decoration: none; color: #333; font-size: 11px; margin: 10px 0 0 0px;}
+.support {float: left; text-decoration: none; color: #333; font-size: 11px; margin: 10px 0 0 0px;}
+
+
+header {width: 1050px; height: 63px; margin: 0 auto;}
+#logo {width: 82px; height: 63px; float: left; margin: 0 0 0 5px;}
+#logo > img {width: 82px; height: 42px; margin: 10.5px 0 0 0px;}
+
+nav {width: 958px; height: 63px; float: right; margin: 0 5px 0 0px;}
+nav > ul {font-weight:bold; margin: 20px 0 0 0px;}
+nav > ul > li {float: left;}
+nav > ul > li > a {text-decoration: none; font-size: 17px;}
+
+.active_1 {color: #5f0080; margin: 0 0 0 20px;}
+.active_2 {color: #b5b5b5; margin: 0 0 0 11px;}
+.active_3 {color: #b5b5b5; margin: 0 0 0 11px;}
+.active_3:hover {color: #5f0080;}
+
+.search {width: 400px; height: 48px; margin: -15px 0 0 230px; border: 1px solid #5f0080; border-radius: 6px;}
+.search_bar {border: none; margin: 13px 0 0 10px; font-size: 16px; width: 300px; height: 18px; outline: none;}
+.glass_button {width: 30px; height: 30px; float: right; margin: -25px 10px 0 0px; background-color: white; border: none;}
+.glass_button > img {width: 36px; height: 36px; margin: -4px 0 0 -10px;}
+
+.icon {width: 148px; height: 36px; float: right; margin: -42px 0 0 0px;}
+.ping_icon {float: left;}
+.black_like_icon {margin: 0 20px 0 20px;}
+.mart_icon {float: right;}
+
+.headerbottom {width: 1050px; height: 56px; margin: 0 auto; box-shadow: 1px 1px 1px #d9d9d9; position: sticky; top: 0; z-index: 301; background-color: white;}
+.category {width: 87px; height: 56px; float: left;}
+.category_icon {padding: 15px 0 15px 0px;}
+.category_in {width: 265px; height: 830px; background-color: white; display: none; border: 1px solid #b5b5b5; overflow: auto; overflow-x: hidden;}
+.category_menus {width: 250px; height: 1120px;}
+.category_menu {width: 250px; height: 40px; background-color: white; position: relative;}
+.slideright {width: 250px; height: 830px; background-color: #b5b5b5; display: inline-block;}
+
+.category_menu:hover {background-color: #f7f7f7;}
+.category_menu > a {width: 233px; height: 24px; text-decoration: none; color: black;}
+.category_menu_box {width: 233px; height: 24px; margin: 8px 7px 8px 7px; position: absolute; }
+.category_menu_img {width: 24px; height: 24px; position: relative; margin: 0 0 0 10px;}
+.category_menu_text {width: 180px; height: 24px; display: block; float: right; font-size: 17px; font-family: "malgun gothic"; }
+.category_menu_text:hover {color: #5f0080; font-size: 17.1px;}
+
+
+
+.menu {width: 600px; height: 56px; float: left; margin: 0 0 0 140px;}
+.menu > li {float: left; width: 150px; height: 55px; font-size: 16px; font-weight: normal; position: relative;}
+.menu > li > a {position: absolute; margin: 18px 0 0 40px; text-decoration: none; color: black;}
+.menu > li > a:hover {text-decoration: double; color: #5f0080; border-bottom: 1px solid purple;}
+
+.delivery {width: 134px; height: 56px; float: right; margin: 0 16px 0 0px;}
+.delivery_icon {width: 132px; height: 28px; float: left; margin: 13px 0 0 0px; border-radius: 20px; border: 0.1px solid #d9d9d9;}
+.delivery_icon > a {font-size: 12px; margin: 0 0 0 15px; text-decoration: none; color: #666;}
+.delivery_icon > a > span {color: #5f0080;}
+
+footer {width: 1900px; height: 563px; margin: 0 auto; padding: 30px 0 0 0px; position: absolute; transform: translate(-50%, 100%); height: 57%; bottom: -120%; left: 50%; border: 1px solid #d9d9d9;}
+.service_center {width: 1050px; height: 327px; padding: 0 0 30px 0px; margin: 0 auto;}
+.service_left {width: 442px; height: 297px; color: #333; float: left;}
+.service_left > p {font-size: 20px;}
+.service_left > strong {font-size: 28px; padding: 0 0 20px 0px; display: block;}
+.service_left > strong > span {font-size: 16px;}
+.service_left_inquiry {width: 442px; height: 56px;}
+.service_button {width: 140px; height: 40px; float: left; background: none; color: #333; border: 1px solid #e2e2e2; font-size: 14px;}
+.service_text {float: left; font-size: 14px;}
+
+.service_right {width: 522px; height: 297px; float: right;}
+.introduction {width: 522px; height: 47px;}
+.introduction > li {float: left;}
+.introduction > li > a {font-size: 14px; color: #333; text-decoration: none; margin: 0 8px 0 0px;}
+.explanation {font-size: 12px; color: #999; margin: 0 0 40px 0;}
+.icon_2 {width: 522px; height: 30px; margin: 20px 0 0 0px;}
+.icon_2 > li > a > img {width: 30px; height: 30px; float: left; margin: 0 10px 0 0px;}
+.citation {width: 1050px; height: 103px; padding: 26px 0 33px 0px; margin: 0 auto; border: 1px solid #d9d9d9;}
+.citation_in {float: left;}
+.citation_in > img {width: 34px; height: 34px; display: inline-block;}
+.logo_tosspayments {width: 102px; height: 32px;}
+.logo_eprivacy_plus {width: 34px; height: 34px;}
+.citation_in > button {border: none; background: none;}
+.citation_in > button > p {font-size: 9px; float: right; line-height: 14.5px;}
+.citation_1 {width: 212px; height: 43px;}
+.citation_2 {width: 229px; height: 43px;}
+.citation_3 {width: 250px; height: 43px;}
+.citation_4 {width: 257px; height: 43px;}

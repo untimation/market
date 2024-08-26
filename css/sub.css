@@ -1,0 +1,59 @@
+@charset "utf-8";
+.shop {width: 1050px; height: 14635px; margin: 0 auto; padding: 30px 0 0 0px;}
+.main {width: 1050px; height: 1238px; margin: 0 auto; }
+.main > img {width: 430px; height: 552px; float: left;}
+section {width: 560px; height: 1238px; float: left; padding: 0 0 0 60px;}
+.delivery_name {font-size: 14px; color: #999;}
+.menu_name > h1 {color: #333; margin: 16px 0px;}
+.ex {color: #b5b5b5; font-size: 16px;}
+.price {font-size: 18px; color: #333; margin: 0;}
+
+.sale_percent {color: #fa622f; font-size: 28px;}
+.now_price {color: #333; font-size: 28px; }
+.del_price {font-size: 16px; color: #b5b5b5;}
+.guide_img {margin: -10px 0 0 0px;}
+.guide_text {font-size: 24px; color: #333;}
+.sale_coupon_button {width: 350px; height: 33px; background: #bd76ff14; border: none;}
+.sale_coupon_box > p {margin: 0 0 0 10px; float: left; color: #333; font-size: 13px;}
+.sale_coupon_box > p > strong {color: #5f0080;}
+
+.ex_tb {float: left;}
+.ex_tb > dl {width: 560px; padding: 17px 0px 18px 0px; display: flex; border-top: 1px solid #b5b5b5;}
+.ex_tb > dl > dd {width: 423px; margin: -15px 0 0 10px;}
+.title {color: #666; font-size: 14px; width: 128px; height: 19px;}
+.type {color: #333; font-size: 14px; width: 423px;}
+.ex_text {color: #666; font-size: 12px; width: 423px;}
+
+.button {width: 560px; height: 56px; display: flex;}
+.like_button {background: none; border: 1px solid #b5b5b5; border-radius: 5px; width: 56px; height: 56px;}
+.alarm_button {background: none; border: 1px solid #b5b5b5; border-radius: 5px; width: 56px; height: 56px; margin: 0 20px;}
+.buy_button {background: #5f0080; border: 1px solid #b5b5b5; border-radius: 5px; width: 423px; height: 56px;}
+.buy_button > span {font-size: 16px; color: #fff;}
+
+.second_nav {width: 1050px; height: 60px; margin: 50px 0px 0 0px; position: sticky; top: 4%;}
+.second_nav > ul {width: 1010px; height: 60px; display: flex; flex-wrap: wrap;}
+.second_nav > ul > li {width: 252.5px; height: 60px; display: flex; background-color: rgb(250, 250, 250);}
+.second_nav > ul > li > a {width: 252.5px; height: 58px; display: flex; justify-content: center; border: 0.1px solid rgb(238, 238, 238);}
+.name {font-size: 16px; color: #666; margin: 20px 0 0 0px;}
+.count {font-size: 14px; color: #666; margin: 21px 0 0 0px;}
+
+#description {width: 1050px; height: 5322px; margin: 15px auto;}
+.goods_wrap {width: 1010px; height: 5312px;}
+.goods_pick {width: 1010px; height: 3335px;}
+.context {width: 1010px; height: 1539px; margin-bottom: 130px;}
+.main_big_img_1 {width: 1010px; height: 671px; margin: 60px 0 0 0px;}
+.context_last {width: 1010px; height: 203px; margin-bottom: 170px;}
+.context_last > h3 {font-size: 38px; text-align: center; color: #666;}
+.context_last > h3 > small {font-size: 24px; margin-bottom: 14px;}
+.context_last > p {font-size: 17px; color: #373737; margin-top: 55px;}
+
+.goods_point {width: 1010px; height: 289.5px;}
+.goods_point > h3 {font-size: 50px; color: #666; text-align: center;}
+
+.goods_pick > h3 {font-size: 50px; text-align: center; color: #666;}
+.option_tit {font-size: 30px; color: #373737;}
+.goods_tip > h3 {font-size: 50px; color: #666; margin: 0 0 0 50px;}
+.tip_box {height: 202px; margin: 50px 0 0 55px;}
+.tip_box > .context {width: 884px; height: 80px;}
+
+#detail {width: 1050px; height: 3112px; margin: 15px auto; background-color: orange;}
